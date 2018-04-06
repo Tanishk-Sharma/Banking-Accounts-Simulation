@@ -54,17 +54,16 @@ Processor: Intel dual core, Core i3, i5, i7.
 
 **Oracle version:** 11.2.0.2.0
 
-Tables: 
-
+Tables:  
 -1. **CUST\_ACCOUNTS**  
-   Primary Key: **ID**  
-   |**Attribute** | **Type** |  
-   | --- | --- |  
-   |**ID** | NUMBER(10) |  
-   | PASSWORD | VARCHAR2(25) |  
-   | ACTYPE | VARCHAR2(7) |  
-   | BALANCE | NUMBER(10) |  
-   | IS\_LOCKED | VARCHAR2(3) |  
+Primary Key: **ID**  
+|**Attribute** | **Type** |  
+| --- | --- |  
+|**ID** | NUMBER(10) |  
+| PASSWORD | VARCHAR2(25) |  
+| ACTYPE | VARCHAR2(7) |  
+| BALANCE | NUMBER(10) |  
+| IS\_LOCKED | VARCHAR2(3) |  
 
 -2. **CUST\_INFO**  
 Primary Key: ID 
@@ -78,7 +77,6 @@ Primary Key: ID
 | CITY | VARCHAR2(25) |
 | STATE | VARCHAR2(25) |
 | PINCODE | NUMBER(6) |  
-
 -3. **TRANSACTIONS**  
 Primary Key: ID 
 |**Attribute** | **Type** |
