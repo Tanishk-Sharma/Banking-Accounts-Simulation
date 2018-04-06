@@ -63,7 +63,8 @@ Tables:
 | PASSWORD | VARCHAR2(25) |
 | ACTYPE | VARCHAR2(7) |
 | BALANCE | NUMBER(10) |
-| IS\_LOCKED | VARCHAR2(3) |
+| IS\_LOCKED | VARCHAR2(3) |  
+
 -2.**CUST\_INFO**  
 Primary Key: ID 
 |**Attribute** | **Type** |
@@ -75,7 +76,8 @@ Primary Key: ID
 | ADRLINE2 | VARCHAR2(50) |
 | CITY | VARCHAR2(25) |
 | STATE | VARCHAR2(25) |
-| PINCODE | NUMBER(6) |
+| PINCODE | NUMBER(6) |  
+
 -3.**TRANSACTIONS**  
 Primary Key: ID 
 |**Attribute** | **Type** |
@@ -84,13 +86,15 @@ Primary Key: ID
 | TR\_DATE | DATE |
 | AMOUNT | NUMBER(10) |
 | BALANCE | NUMBER(10) |
-| TRTYPE | VARCHAR2(6) |
+| TRTYPE | VARCHAR2(6) |  
+
 -4.**CLOSED\_ACCOUNTS**  
 Primary Key: ID 
 |**Attribute** | **Type** |
 | --- | --- |
 | **ID** | NUMBER(10) |
-| DATE\_CLOSED | DATE |
+| DATE\_CLOSED | DATE |  
+
 -5.**ADMIN\_INFO**  
 Primary Key: ID 
 |**Attribute** | **Type** |
