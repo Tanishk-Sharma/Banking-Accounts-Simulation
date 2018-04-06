@@ -57,14 +57,14 @@ Processor: Intel dual core, Core i3, i5, i7.
 Tables: 
 
 -1. **CUST\_ACCOUNTS**  
-   Primary Key: **ID** 
-|**Attribute** | **Type** |
-| --- | --- |
-|**ID** | NUMBER(10) |
-| PASSWORD | VARCHAR2(25) |
-| ACTYPE | VARCHAR2(7) |
-| BALANCE | NUMBER(10) |
-| IS\_LOCKED | VARCHAR2(3) |  
+   Primary Key: **ID**  
+   |**Attribute** | **Type** |  
+   | --- | --- |  
+   |**ID** | NUMBER(10) |  
+   | PASSWORD | VARCHAR2(25) |  
+   | ACTYPE | VARCHAR2(7) |  
+   | BALANCE | NUMBER(10) |  
+   | IS\_LOCKED | VARCHAR2(3) |  
 
 -2. **CUST\_INFO**  
 Primary Key: ID 
