@@ -55,16 +55,16 @@ Processor: Intel dual core, Core i3, i5, i7.
 
 Tables:
 
-| **S. No.** | **Table Name** | **Attributes** |
+| **Table Name** | **Attributes** |
 | --- | --- | --- |
-| 1. | **CUST\_ACCOUNTS** 
+| **CUST\_ACCOUNTS** 
 Primary Key: ID | 
 **ID** | NUMBER(10) |
 | PASSWORD | VARCHAR2(25) |
 | ACTYPE | VARCHAR2(7) |
 | BALANCE | NUMBER(10) |
 | IS\_LOCKED | VARCHAR2(3) |
-| 2. | **CUST\_INFO** Primary Key: ID | **ID** | NUMBER(10) |
+| **CUST\_INFO** Primary Key: ID | **ID** | NUMBER(10) |
 | FNAME | VARCHAR2(20) |
 | LNAME | VARCHAR2(20) |
 | ADRLINE1 | VARCHAR2(50) |
@@ -72,13 +72,13 @@ Primary Key: ID |
 | CITY | VARCHAR2(25) |
 | STATE | VARCHAR2(25) |
 | PINCODE | NUMBER(6) |
-| 3. | **TRANSACTIONS** Primary -Key: ID | **ID** | NUMBER(10) |
+| **TRANSACTIONS** Primary -Key: ID | **ID** | NUMBER(10) |
 | TR\_DATE | DATE |
 | AMOUNT | NUMBER(10) |
 | BALANCE | NUMBER(10) |
 | TRTYPE | VARCHAR2(6) |
-| 4. | **CLOSED\_ACCOUNTS** Primary Key: ID | **ID** | NUMBER(10) |
+| **CLOSED\_ACCOUNTS** Primary Key: ID | **ID** | NUMBER(10) |
 | DATE\_CLOSED | DATE |
-| 5. | **ADMIN\_INFO** Primary Key: ID | **ID** | VARCHAR2(25) |
+| **ADMIN\_INFO** Primary Key: ID | **ID** | VARCHAR2(25) |
 | PASSWORD | VARCHAR2(25) |
 | IS\_LOCKED | VARCHAR2(3) |
