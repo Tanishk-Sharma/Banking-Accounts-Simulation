@@ -57,7 +57,9 @@ Tables:
 
 | **S. No.** | **Table Name** | **Attributes** |
 | --- | --- | --- |
-| 1. | **CUST\_ACCOUNTS** Primary Key: ID | **ID** | NUMBER(10) |
+| 1. | **CUST\_ACCOUNTS** 
+Primary Key: ID | 
+**ID** | NUMBER(10) |
 | PASSWORD | VARCHAR2(25) |
 | ACTYPE | VARCHAR2(7) |
 | BALANCE | NUMBER(10) |
