@@ -53,9 +53,7 @@ Processor: Intel dual core, Core i3, i5, i7.
 
 **Oracle version:** 11.2.0.2.0
 
-Tables:
-
-
+Tables:  
 -1. **CUST\_ACCOUNTS**  
    Primary Key: **ID** 
 |**Attribute** | **Type** |
