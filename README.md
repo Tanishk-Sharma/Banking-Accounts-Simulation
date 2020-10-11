@@ -1,11 +1,12 @@
-# Bank Accounts
+# Banking Project
+## The project is to develop a banking application for a bank that has multiple customers spread across the country.
 
 ## INTRODUCTION
 
 - We are aware of banking services and would have done some transactions like deposit, withdrawal, transfer of funds and so on.
 - A bank typically has large number of customers and maintains the details of each customer i.e. what is the name of my customer, his address, account number, how much money is there in his account etc.
 - We also hear about multiple types of accounts like Saving account, Current account.
-- The project is to develop a banking application for a bank that has multiple customers spread across the country.
+
 ### - The Bank provides following services:
   - A customer can have either of the following type of accounts:
     - Savings Account – Generally used for temporary savings. Offers interest at the rate of 7.5% per annum on your savings. Maximum 10 withdrawals are allowed per month. No minimum balance is needed to open or maintain this account.
