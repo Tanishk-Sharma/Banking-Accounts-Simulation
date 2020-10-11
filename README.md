@@ -41,9 +41,7 @@ RAM: Minimum 512 MB
 
 Processor: Intel dual core, Core i3, i5, i7.
 
-### Tools:
-
-#### Software Requirements** : Python IDLE
+#### Software Requirements : Python IDLE
 
 ### Tables in Database:
 
