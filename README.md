@@ -7,7 +7,7 @@
 - A bank typically has large number of customers and maintains the details of each customer i.e. what is the name of my customer, his address, account number, how much money is there in his account etc.
 - We also hear about multiple types of accounts like Saving account, Current account.
 
-### - The Bank provides following services:
+### The Bank provides following services:
   - A customer can have either of the following type of accounts:
     - **Savings Account** – Generally used for temporary savings. Offers interest at the rate of 7.5% per annum on your savings. Maximum 10 withdrawals are allowed per month. No minimum balance is needed to open or maintain this account.
     - **Current Account** – Generally used by corporates and business men. No interest is offered on this account. No limit of on no. of withdrawals. A customer needs to have minimum 5K to open or maintain this account.
@@ -29,20 +29,6 @@
 - Interest on savings account is not getting applied.
 - Account once locked due to 3 successive erroneous passwords cannot be unlocked.
 - Password is not encrypted.
-
-### HARDWARE AND SOFTWARE REQUIREMENTS
-
-#### Hardware Requirements:
-
-Windows XP/Vista/7/8/8.1/10
-
-Memory space: Minimum 500MB
-
-RAM: Minimum 512 MB
-
-Processor: Intel dual core, Core i3, i5, i7.
-
-#### Software Requirements : Python IDLE
 
 ### Tables in Database:
 
