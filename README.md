@@ -42,7 +42,7 @@
 * 1. **CUST\_ACCOUNTS**  
 Primary Key: **ID**  
 |**Attribute** | **Type** |  
----------------------------- 
+| ---------------------------- |
 |**ID** | NUMBER(10) |  
 | PASSWORD | VARCHAR2(25) |  
 | ACTYPE | VARCHAR2(7) |  
@@ -52,7 +52,7 @@ Primary Key: **ID**
 * 2. **CUST\_INFO**  
 Primary Key: ID 
 |**Attribute** | **Type** |  
----------------------------- 
+| ---------------------------- |
 | **ID** | NUMBER(10) |
 | FNAME | VARCHAR2(20) |
 | LNAME | VARCHAR2(20) |
@@ -65,7 +65,7 @@ Primary Key: ID
 * 3. **TRANSACTIONS**  
 Primary Key: ID 
 |**Attribute** | **Type** |  
----------------------------- 
+| ---------------------------- | 
 | **ID** | NUMBER(10) |
 | TR\_DATE | DATE |
 | AMOUNT | NUMBER(10) |
@@ -75,14 +75,14 @@ Primary Key: ID
 * 4. **CLOSED\_ACCOUNTS**  
 Primary Key: ID 
 |**Attribute** | **Type** |  
----------------------------- 
+| ---------------------------- | 
 | **ID** | NUMBER(10) |
 | DATE\_CLOSED | DATE |  
 
 * 5. **ADMIN\_INFO**  
 Primary Key: ID 
 |**Attribute** | **Type** |  
----------------------------- 
+| ---------------------------- |
 | **ID** | VARCHAR2(25) |
 | PASSWORD | VARCHAR2(25) |
 | IS\_LOCKED | VARCHAR2(3) |
