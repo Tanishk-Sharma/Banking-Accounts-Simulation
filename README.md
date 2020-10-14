@@ -39,7 +39,7 @@
 #### Oracle version: 11.2.0.2.0
 
 #### Tables:  
--1. **CUST\_ACCOUNTS**  
+* 1. **CUST\_ACCOUNTS**  
 Primary Key: **ID**  
 |**Attribute** | **Type** |  
 | --- | --- |  
@@ -49,7 +49,7 @@ Primary Key: **ID**
 | BALANCE | NUMBER(10) |  
 | IS\_LOCKED | VARCHAR2(3) |  
 
--2. **CUST\_INFO**  
+* 2. **CUST\_INFO**  
 Primary Key: ID 
 |**Attribute** | **Type** |
 | --- | --- |
@@ -60,8 +60,9 @@ Primary Key: ID
 | ADRLINE2 | VARCHAR2(50) |
 | CITY | VARCHAR2(25) |
 | STATE | VARCHAR2(25) |
-| PINCODE | NUMBER(6) |  
--3. **TRANSACTIONS**  
+| PINCODE | NUMBER(6) | 
+
+* 3. **TRANSACTIONS**  
 Primary Key: ID 
 |**Attribute** | **Type** |
 | --- | --- |
@@ -71,14 +72,14 @@ Primary Key: ID
 | BALANCE | NUMBER(10) |
 | TRTYPE | VARCHAR2(6) |  
 
--4. **CLOSED\_ACCOUNTS**  
+* 4. **CLOSED\_ACCOUNTS**  
 Primary Key: ID 
 |**Attribute** | **Type** |
 | --- | --- |
 | **ID** | NUMBER(10) |
 | DATE\_CLOSED | DATE |  
 
--5. **ADMIN\_INFO**  
+* 5. **ADMIN\_INFO**  
 Primary Key: ID 
 |**Attribute** | **Type** |
 | --- | --- |
