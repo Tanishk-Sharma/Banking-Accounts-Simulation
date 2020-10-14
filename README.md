@@ -39,6 +39,7 @@
 #### Oracle version: 11.2.0.2.0
 
 #### Tables:  
+
 * 1. **CUST\_ACCOUNTS**  
 Primary Key: **ID**  
 |**Attribute** | **Type** |  
