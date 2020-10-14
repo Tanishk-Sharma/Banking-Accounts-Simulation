@@ -43,6 +43,7 @@
 Primary Key: **ID**  
 |**Attribute** | **Type** |  
 | ---------------------------- |
+
 |**ID** | NUMBER(10) |  
 | PASSWORD | VARCHAR2(25) |  
 | ACTYPE | VARCHAR2(7) |  
@@ -53,6 +54,7 @@ Primary Key: **ID**
 Primary Key: ID 
 |**Attribute** | **Type** |  
 | ---------------------------- |
+
 | **ID** | NUMBER(10) |
 | FNAME | VARCHAR2(20) |
 | LNAME | VARCHAR2(20) |
@@ -66,6 +68,7 @@ Primary Key: ID
 Primary Key: ID 
 |**Attribute** | **Type** |  
 | ---------------------------- | 
+
 | **ID** | NUMBER(10) |
 | TR\_DATE | DATE |
 | AMOUNT | NUMBER(10) |
@@ -76,6 +79,7 @@ Primary Key: ID
 Primary Key: ID 
 |**Attribute** | **Type** |  
 | ---------------------------- | 
+
 | **ID** | NUMBER(10) |
 | DATE\_CLOSED | DATE |  
 
@@ -83,6 +87,7 @@ Primary Key: ID
 Primary Key: ID 
 |**Attribute** | **Type** |  
 | ---------------------------- |
+
 | **ID** | VARCHAR2(25) |
 | PASSWORD | VARCHAR2(25) |
 | IS\_LOCKED | VARCHAR2(3) |
