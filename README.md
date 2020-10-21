@@ -1,5 +1,6 @@
 # Banking Accounts Simulation
-## The project is to develop a banking application for a bank that has multiple customers spread across the country.
+
+The project is to develop a banking application for a bank that has multiple customers spread across the country.
 
 ## INTRODUCTION
 
